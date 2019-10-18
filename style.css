@@ -1,0 +1,79 @@
+/* importing google fonts */
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam|Playfair+Display&display=swap");
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* button styles */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(54, 52, 46);
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid rgb(54, 52, 46);
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+/* body styles */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: rgb(228, 214, 196);
+  text-align: center;
+}
+
+/* button hover state */
+a:hover {
+  background-color: rgb(204, 185, 211);
+}
+
+/* heading styles */
+h1 {
+  color: rgb(54, 52, 46);
+  letter-spacing: 1.8;
+  margin-top: 10%;
+}
+
+p {
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* banner styles */
+.banner {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background-color: rgb(123, 150, 144);
+  margin: 50px auto;
+}
+
+.square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 10%;
+  background-color: rgb(238, 229, 189);
+  transform: translateY(-50%);
+  box-shadow: 8px 8px 0 0 black;
+}
+
+.circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(120, 166, 192);
+  top: 50%;
+  right: 15%;
+  border-radius: 50px;
+  transform: translateY(-50%);
+  box-shadow: 8px 8px 0 0 black;
+}
